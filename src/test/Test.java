@@ -21,7 +21,7 @@ public class Test {
 	public static void main(String[] args) {
 		int N = 5, M = 8;
 
-		for (int[] row : Exercise.Calculate(N, M))
+		for (byte[] row : Exercise.Calculate(N, M))
 			System.out.println(Arrays.toString(row));
 	}
 }
